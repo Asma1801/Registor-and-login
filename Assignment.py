@@ -1,10 +1,9 @@
 import re
+import csv
 print("*****Welcome to REGISTRATION|LOGIN portal****")
 
 
 def register(user_input):
-        import csv
-        import re
         if user_input == "Register":
             print("Welcome to Registration")
             print("NOTE: TO ENTER THE EMAIL ADDRESS","\n"
@@ -53,7 +52,6 @@ def register(user_input):
             begin(user_input)
 
 def Login(user_input):
-    import csv
     if user_input=="Login":
         print("Welcome to Login :")
         f1 = open("user_data.csv", "r")
